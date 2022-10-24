@@ -8,7 +8,7 @@ html{
 }
 h1,h2,h3,h4,h5,h6,a,p{
     text-decoration: none;
-    color: #efe8f2;
+    color: black;
 }
 
 body{
@@ -91,11 +91,18 @@ nav ul > li:hover a,nav ul >li.active a{
 }
 
 .btn-primary{
+    text-align: center;
     background: #eb7d4b;
     width: 30rem;
     height: 6rem;
     border-bottom: .4rem solid #c86a40;
     padding-top: 1.5rem;
+    transition: all 0.2s ease-in-out ;
+}
+.btn-primary:hover{
+   width: 30.5rem;
+   height: 6.5rem;
+   padding-top: 1.7rem;
 }
 
 i{
@@ -122,6 +129,7 @@ i{
 }
 
 .services_header h2{
+    color: #efe8f2;
     width: 500px;
     margin: 0 auto;
     font-size: 4rem;
@@ -131,6 +139,7 @@ i{
     position: relative;
 }
 .services_header p{
+    color: #efe8f2;
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 9rem;
@@ -158,6 +167,7 @@ i{
 }
 
 .services_cards h2{
+    color: #efe8f2;
     font-size: 2.4rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -165,6 +175,7 @@ i{
 }
 
 .services_cards p{
+    color: #efe8f2;
     font-size: 1.5rem;
     font-weight: 300;
 }
@@ -172,4 +183,64 @@ i{
 .services_cards i{
     margin-bottom: 5rem;
     color: #285F72;
+}
+
+/* teams section */
+
+.team{
+    background-color: #e7f1f8;
+}
+
+.team_header h2{
+    color: #3c4761;
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.team_header p{
+    color: #3c4761;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 8rem;
+}
+
+.team_cards{
+    width: 20.7rem;
+    height: 50rem;
+}
+
+.team_cards_img{
+    width: 18rem;
+    height: 18rem;
+    background-color: #878787;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.team_cards_head h3{
+    color: #27283d;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.team_cards_head p{
+    font-size: 1.6rem;
+    color: #61c9ec;
+    margin-bottom: 3rem;
+}
+
+.team_cards_body p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 3.5rem;
+}
+
+
+.team_cards_body_icon i{
+    font-size: 2.5rem;
+    margin: 0  .5rem;
 }
